@@ -7,7 +7,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [filter, setFilter] = useState("Toutes");
 
-  //----------
+  //------------
   const handelAddTask = (taskName) => {
     const task = {
       nomtach: taskName,

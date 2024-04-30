@@ -5,7 +5,6 @@ function TaskForm({ onAddTask }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!taskName.trim()) return;
     onAddTask(taskName);
     setTaskName("");
   };
